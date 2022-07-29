@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                 TR,TD,TH
+            TBODY
+                 TR,TD,TH
+            TFOOT 
+                 TR,TD,TH   
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Unidade Federativa</th>
+                <th>População (2010)</th>
+                <th>População (2021)</th>
+                <th>Mudança</th>
+                <th>% da pop. total</th>
+                <th>País comparável (habitantes)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="primeiro">
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="num">41 262 199</td>
+                <td class="num">46 649 132</td>
+                <td class="num">+13.05%</td>
+                <td class="num">21,9%</td>
+                <td class="num"><a href="https://pt.wikipedia.org/wiki/Espanha" target="_blank">Espanha</a> <br>(46 439 864)</td>
+            </tr>
+            <tr class="segundo">
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+                <td class="num">21 411 923</td>
+                <td class="num">+9.26%</td>
+                <td class="num">10,1%</td>
+                <td class="num"><a href="https://pt.wikipedia.org/wiki/Sri_Lanka" target="_blank">Sri Lanka</a> <br>(20 675 000)</td>
+            </tr>
+            <tr class="terceiro">
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">15 989 929</td>
+                <td class="num">17 463 349</td>
+                <td class="num">+9.21%</td>
+                <td class="num">8,2%</td>
+                <td class="num"><a href="https://pt.wikipedia.org/wiki/S%C3%ADria" target="_blank">Síria</a> <br>(17,500,658)</td>
+            </tr>
+            <tr class="quarto">
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="num">14 016 906</td>
+                <td class="num">14 985 284</td>
+                <td class="num">+6.91%</td>
+                <td class="num">7,1%</td>
+                <td class="num"><a href="https://pt.wikipedia.org/wiki/Chade" target="_blank">Chade</a> <br>(14 037 000)</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="quinto">
+                <th>Total de habitantes de (2021)</th>
+                <td><strong>100 509 688</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
