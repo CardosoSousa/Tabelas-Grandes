@@ -32,19 +32,21 @@ table{
 td, th{
     border: 1px solid black;
     padding: 7px;
-    
+    font-weight: bolder;
 }
 
 thead{
     background-color: gray;
     color: white;
-    
+    font-weight: bolder;
 }
 
 tfoot{
     background-color: gray;
     color: white;
+    font-weight: bolder;
 }
 .num{
     text-align: right;
+    
 }
